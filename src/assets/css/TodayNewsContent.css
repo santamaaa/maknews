@@ -1,0 +1,126 @@
+._today-news {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+._today-news .news-items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+._today-news .news {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+._today-news .news-img {
+    position: relative;
+}
+
+._today-news .news-img img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    border-radius: 4px;
+    object-fit: cover;
+    filter: brightness(.5) grayscale(1);
+}
+
+._today-news .news-text {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    padding: 24px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+._today-news .n-category {
+    color: var(--grey1);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+._today-news .n-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+._today-news .n-attribute {
+    display: flex;
+    gap: 4px;
+    font-size: 12px;
+}
+
+._today-news .n-attribute .n-author,
+._today-news .n-attribute .line {
+    color: var(--white);
+    font-weight: 500;
+}
+
+._today-news .n-attribute .n-date {
+    color: var(--grey1);
+    font-weight: 400;
+}
+
+._today-news .n-title {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+._today-news .news:hover img {
+    filter: none;
+}
+
+._today-news .news:hover {
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 4px var(--grey1);
+}
+
+._today-news .news:hover .news-text {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    ._today-news .news-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    ._today-news .n-category {
+        font-size: 10px;
+    }
+    ._today-news .n-attribute {
+        font-size: 10px;
+    }
+    ._today-news .n-title {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (600px < width < 1000px) {
+    ._today-news .news-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    ._today-news .n-category {
+        font-size: 10px;
+    }
+    ._today-news .n-attribute {
+        font-size: 10px;
+    }
+    ._today-news .n-title {
+        font-size: 16px;
+    }    
+}
