@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/maknews/static/css/main.1e08b77a.css",
+    "main.js": "/maknews/static/js/main.3084be9d.js",
+    "static/media/maknews.png": "/maknews/static/media/maknews.f6cc8e8551d22af32e40.png",
+    "index.html": "/maknews/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.1e08b77a.css",
+    "static/js/main.3084be9d.js"
+  ]
+}
