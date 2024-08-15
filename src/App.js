@@ -13,7 +13,7 @@ function App() {
     <div className="app">
       <div className="app-content">
         <Header />
-        <Router>
+        <Router basename="/maknews">
           <Routes>
             <Route path="/" element={ <TodayNews /> } />
             <Route path="/region/:region" element={ <NewsByRegion /> } />
