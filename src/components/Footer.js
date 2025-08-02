@@ -10,27 +10,27 @@ const Footer = () => {
                 <div className="social-media">
                     <p>Follow MAKNEWS on :</p>
                     <div className="icon">
-                        <a href="/">
+                        <a href="https://github.com/santamaaa">
                             <FontAwesomeIcon icon={ faInstagram } />
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/santamaaa">
                             <FontAwesomeIcon icon={ faFacebook } />
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/santamaaa">
                             <FontAwesomeIcon icon={ faTiktok } />
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/santamaaa">
                             <FontAwesomeIcon icon={ faXTwitter } />
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/santamaaa">
                             <FontAwesomeIcon icon={ faLinkedin } />
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/santamaaa">
                             <FontAwesomeIcon icon={ faYoutube } />
                         </a>
                     </div>
                 </div>
-                <p className="copyright">Copyright Santamaa 2024</p>
+                <p className="copyright">Copyright Santamaaa 2025</p>
             </div>
         </footer>
     )
